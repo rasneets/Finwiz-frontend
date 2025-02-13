@@ -1,0 +1,113 @@
+/* General Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Main container */
+.about-container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* About Us Title */
+.about-title {
+  font-size: 36px;
+  color:  #b51851;
+  margin-bottom: 20px;
+}
+
+/* About Us Content */
+.about-content {
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* About Us Image */
+.about-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Members Section Title */
+.title {
+  font-size: 32px;
+  color: #333;
+  margin: 40px 0 20px;
+}
+
+/* Categories Styling */
+.category {
+  margin-bottom: 30px;
+}
+
+/* Category Title */
+.category-title {
+  font-size: 24px;
+  color: #b51851;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* Names Rows */
+.names-row {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Individual Names */
+.names-row p {
+  background-color: #f0f8ff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px 0;
+  color: #333;
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+/* Hover Effect for Names */
+.names-row p:hover {
+  background-color: #e0e7ff;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-container {
+    margin-top: 300px;
+    padding: 15px;
+  }
+
+  .about-title {
+    font-size: 28px;
+  }
+
+  .about-content {
+    font-size: 16px;
+  }
+
+  .names-row p {
+    min-width: 80px;
+    font-size: 14px;
+  }
+}

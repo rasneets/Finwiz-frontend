@@ -1,0 +1,65 @@
+.caf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.caf-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.caf-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.caf-form input,
+.caf-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.caf-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.caf-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #b51851;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.caf-form button:hover {
+    background-color: #8f1341;
+}
+
+/* Add margin-top to account for navbar */
+.caf-container {
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+    .caf-container {
+        margin-top: 400px;
+    }
+}
+  

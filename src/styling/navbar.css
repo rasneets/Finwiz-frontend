@@ -1,0 +1,106 @@
+/* Navbar container */
+.navbar {
+  position: fixed; /* Fix the navbar at the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width */
+  background-color: white; /* White background */
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  z-index: 1000; /* Ensure it stays above other elements */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left section (logo and text) */
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Logo styling */
+.logo {
+  height: 70px; /* Adjust logo size */
+  cursor: pointer;
+}
+
+/* Finwiz and NIT Warangal text */
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px; /* Space between "Finwiz" and "NIT Warangal" */
+}
+
+.finwiz {
+  font-size: 20px; /* Larger text for "Finwiz" */
+  font-weight: bold;
+  color: #b51851; /* Red text color */
+}
+
+.nit-warangal {
+  font-size: 14px; /* Smaller text for "NIT Warangal" */
+  font-weight: normal;
+  color: black; /* Red text color */
+}
+
+/* Navigation links container */
+.navlinks {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between links */
+  margin-right: 100px;
+}
+
+/* Links styling */
+.navlinks a {
+  text-decoration: none; /* Remove underline */
+  color: #b51851; /* Red text color */
+  font-size: 16px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navlinks a:hover {
+  color: darkred; /* Darker red on hover */
+}
+
+/* Logout button styling */
+.navlinks button {
+  background-color: transparent; /* No background for a clean look */
+  color: #b51851; /* Red text color */
+  border: 2px solid red; /* Red border */
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navlinks button:hover {
+  background-color: red; /* Red background on hover */
+  color: white; /* White text on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items on smaller screens */
+    align-items: flex-start;
+  }
+
+  .nav-left {
+    margin-bottom: 10px;
+  }
+
+  .navlinks {
+    flex-direction: column;
+    gap: 10px; /* Smaller gaps */
+    width: 100%;
+    text-align: center;
+    
+  }
+}

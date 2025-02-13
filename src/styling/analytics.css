@@ -1,0 +1,167 @@
+.analytics-container {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.analytics-container h1 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .analytics-container {
+        margin-top: 300px;
+    }
+}
+
+.analytics-page {
+    margin-top: 300px;
+    padding: 20px;
+}
+
+.nu {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nu h1 {
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.ca-section,
+.zquiz-section,
+.wtr-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.ca-section h1,
+.zquiz-section h1,
+.wtr-section h1 {
+    color: #b51851;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ca-section h2,
+.zquiz-section h2,
+.wtr-section h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.registration-table th,
+.registration-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.registration-table th {
+    background-color: #b51851;
+    color: white;
+    font-weight: bold;
+}
+
+.registration-table tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.registration-table tr:hover {
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+    .analytics-page {
+        margin-top: 300px;
+        padding: 10px;
+    }
+
+    .registration-table th,
+    .registration-table td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    .ca-section h1,
+    .zquiz-section h1,
+    .wtr-section h1 {
+        font-size: 1.4rem;
+    }
+
+    .nu h1 {
+        font-size: 1.6rem;
+    }
+
+    .table-container {
+        margin: 10px -10px;
+        width: calc(100% + 20px);
+    }
+}
+
+.registration-count {
+    text-align: center;
+    color: #b51851 !important;
+    font-size: 1.2rem !important;
+    margin: 15px 0 !important;
+    font-weight: bold;
+}
+
+.ca-section h2,
+.zquiz-section h2,
+.wtr-section h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.not-admin-message {
+    margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+}
+
+.not-admin-message h1 {
+    color: #b51851;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.not-admin-message p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .not-admin-message {
+        margin-top: 300px;
+    }
+    
+    .not-admin-message h1 {
+        font-size: 1.5rem;
+    }
+    
+    .not-admin-message p {
+        font-size: 1rem;
+    }
+} 

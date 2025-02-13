@@ -1,0 +1,107 @@
+.events{
+  margin-top: 200px;
+}
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.ca, .wtr, .zquiz {
+    border: 1px solid #ccc;
+    background-color: #b51851;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.ca:hover, .wtr:hover, .zquiz:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ca h1, .wtr h1, .zquiz h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.ca p, .wtr p, .zquiz p {
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.ca button, .wtr button, .zquiz button, .register-button {
+    margin-top: auto;
+    padding: 10px 20px;
+    background-color: white;
+    color: #b51851;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s, transform 0.2s;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.ca button:hover, .wtr button:hover, .zquiz button:hover, .register-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.already-registered {
+    background-color: #ffffff !important;
+    cursor: default !important;
+    color: #b51851 !important;
+}
+
+.already-registered:hover {
+    transform: none !important;
+    background-color: #ffffff !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .events-container {
+        padding: 10px;
+        margin-top: 200px;
+    }
+
+    .ca, .wtr, .zquiz {
+        width: 100%;
+        max-width: 350px;
+    }
+    
+    .events {
+        margin-top: 150px;
+    }
+}
+
+.events-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 50px; /* Extra space to ensure it's well-positioned */
+}
+
+@media(max-width:768px){
+.events-container{
+    margin-top: 700px;}
+  }
+
+  .login-text{
+    margin-top: 400px;
+  }
