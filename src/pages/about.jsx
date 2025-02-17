@@ -58,6 +58,7 @@ return(
         <div className="names-row">
           <p>Kiran B</p>
           <p>Udaykanth</p>
+            <p>Rasneet Singh</p>
         </div>
       </div>
   
